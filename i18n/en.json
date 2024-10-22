@@ -1145,7 +1145,6 @@
   "合并现有的模型 ID 和新的模型 ID，并去重":"Merge the existing model ID with the new model ID and remove duplicates",
   "创建新的":"Create new",
   "将语言更改移到这里":"Move language changes here",
-  "添加加载Status":"Add loading status",
   "钩子": "hook",
   "修改后的 t 函数":" Modified t function",
   "直接使用 key，不进行任何分割": "Use the key directly without any splitting",
@@ -1333,6 +1332,10 @@
   "报错": "Error report",
   "异步任务执行失败": "Asynchronous task execution failed",
   ",补偿": ", Compensation",
-  "连接由": "Connected by"
+  "连接由": "Connected by",
+
+  "正常计费":"Normal Billing",
+  "不计算图片":"Don't Count Images",
+  "全部不计算":"Don't Count Everything"
   
 }
