@@ -82,14 +82,6 @@ const panel = {
       breadcrumbs: false
     },
     {
-      id: 'playground',
-      title: 'Playground',
-      type: 'item',
-      url: '/panel/playground',
-      icon: icons.IconBallFootball,
-      breadcrumbs: false
-    },
-    {
       id: 'log',
       title: '日志',
       type: 'item',
@@ -112,14 +104,6 @@ const panel = {
       type: 'item',
       url: '/panel/topup',
       icon: icons.IconCreditCard,
-      breadcrumbs: false
-    },
-    {
-      id: 'midjourney',
-      title: 'Midjourney',
-      type: 'item',
-      url: '/panel/midjourney',
-      icon: icons.IconBrush,
       breadcrumbs: false
     },
     {
@@ -184,15 +168,6 @@ const panel = {
       breadcrumbs: false,
       isAdmin: true
     },
-    {
-      id: 'telegram',
-      title: 'Telegram Bot',
-      type: 'item',
-      url: '/panel/telegram',
-      icon: icons.IconBrandTelegram,
-      breadcrumbs: false,
-      isAdmin: true
-    }
   ]
 };
 
