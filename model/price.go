@@ -254,49 +254,5 @@ func GetDefaultPrice() []*Price {
 		})
 	}
 
-	var DefaultMJPrice = map[string]float64{
-		"mj_imagine":        50,
-		"mj_variation":      50,
-		"mj_reroll":         50,
-		"mj_blend":          50,
-		"mj_modal":          50,
-		"mj_zoom":           50,
-		"mj_shorten":        50,
-		"mj_high_variation": 50,
-		"mj_low_variation":  50,
-		"mj_pan":            50,
-		"mj_inpaint":        0,
-		"mj_custom_zoom":    0,
-		"mj_describe":       25,
-		"mj_upscale":        25,
-		"swap_face":         25,
-		"mj_upload":         0,
-	}
-
-	for model, mjPrice := range DefaultMJPrice {
-		prices = append(prices, &Price{
-			Model:       model,
-			Type:        TimesPriceType,
-			ChannelType: config.ChannelTypeMidjourney,
-			Input:       mjPrice,
-			Output:      mjPrice,
-		})
-	}
-
-	var DefaultSunoPrice = map[string]float64{
-		"suno_lyrics": 5,
-		"chirp-v3-0":  50,
-		"chirp-v3-5":  50,
-	}
-	for model, sunoPrice := range DefaultSunoPrice {
-		prices = append(prices, &Price{
-			Model:       model,
-			Type:        TimesPriceType,
-			ChannelType: config.ChannelTypeSuno,
-			Input:       sunoPrice,
-			Output:      sunoPrice,
-		})
-	}
-
 	return prices
 }
