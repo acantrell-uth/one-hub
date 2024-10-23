@@ -1363,7 +1363,8 @@
   "自定义参数": "Custom parameters",
   "你可以自定义每个请求的地址，空为默认值，disable为禁用该请求": "You can customize the address of each request, empty for default value, disable to disable this request",
   "地址":" Endpoint",
-  "默认为：":"Default to: "
+  "默认为：":"Default to: ",
+  "从Mistral获取模型列表":"Get the model list from Mistral"
 
 
 }
