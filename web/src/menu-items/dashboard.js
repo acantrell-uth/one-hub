@@ -24,14 +24,6 @@ const dashboard = {
       icon: icons.IconChartHistogram,
       breadcrumbs: false,
       isAdmin: true
-    },
-    {
-      id: 'playground',
-      title: 'Playground',
-      type: 'item',
-      url: '/panel/playground',
-      icon: icons.IconBallFootball,
-      breadcrumbs: false
     }
   ]
 };
