@@ -18,7 +18,7 @@ ADD go.mod go.sum ./
 RUN go mod download
 COPY . .
 COPY --from=builder /build/build ./web/build
-RUN go build -ldflags "-s -w -X 'one-api/common.Version=$(cat VERSION)' -extldflags '-static'" -o one-api
+RUN go build -ldflags "-s -w -X 'one-hub/common.Version=$(cat VERSION)' -extldflags '-static'" -o one-hub
 
 FROM alpine
 
@@ -27,7 +27,7 @@ RUN apk update \
     && apk add --no-cache ca-certificates tzdata \
     && update-ca-certificates 2>/dev/null || true
 
-COPY --from=builder2 /build/one-api /
+COPY --from=builder2 /build/one-hub /
 EXPOSE 3000
 WORKDIR /data
-ENTRYPOINT ["/one-api"]
+ENTRYPOINT ["/one-hub"]

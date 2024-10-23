@@ -50,31 +50,13 @@ const Setting = {
       isAdmin: true
     },
     {
-      id: 'operation',
-      title: '运营',
-      type: 'collapse',
-      icon: icons.IconBasket,
-      isAdmin: true,
-      children: [
-        {
-          id: 'pricing',
-          title: '模型价格',
-          type: 'item',
-          url: '/panel/pricing',
-          icon: icons.IconReceipt2,
-          breadcrumbs: false,
-          isAdmin: true
-        },
-        {
-          id: 'telegram',
-          title: 'Telegram Bot',
-          type: 'item',
-          url: '/panel/telegram',
-          icon: icons.IconBrandTelegram,
-          breadcrumbs: false,
-          isAdmin: true
-        }
-      ]
+      id: 'pricing',
+      title: '模型价格',
+      type: 'item',
+      url: '/panel/pricing',
+      icon: icons.IconReceipt2,
+      breadcrumbs: false,
+      isAdmin: true
     },
     {
       id: 'paySetting',
