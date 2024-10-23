@@ -35,8 +35,8 @@ const App = () => {
       dispatch({ type: SET_THEME, theme: storedTheme });
     }
 
-    // 将语言更改移到这里
-    const storedLanguage = localStorage.getItem('appLanguage') || 'zh_CN';
+    // Move language changes here
+    const storedLanguage = localStorage.getItem('appLanguage') || 'en_US';
     i18n.changeLanguage(storedLanguage);
   }, [dispatch]);
 
