@@ -1334,8 +1334,8 @@
   "连接由": "Connected by",
 
   "正常计费":"Normal Billing",
-  "不计算图片":"Don't Count Images",
-  "全部不计算":"Don't Count Everything",
+  "不计算图片":"Do Not Count Images",
+  "全部不计算":"Do Not Count Everything",
   "充值统计":"Billing Statistics"
   
 }
