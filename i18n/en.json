@@ -1336,6 +1336,7 @@
   "正常计费":"Normal Billing",
   "不计算图片":"Do Not Count Images",
   "全部不计算":"Do Not Count Everything",
-  "充值统计":"Billing Statistics"
+  "充值统计":"Billing Statistics",
+  "zhCN":"enUS"
   
 }
