@@ -1,0 +1,5 @@
+web/node_modules/*
+web/build/*
+one-api.db
+one-hub
+one-api
