@@ -78,11 +78,6 @@ const Header = () => {
             <Button component={Link} variant="text" to="/" color={pathname === '/' ? 'primary' : 'inherit'}>
               {t('menu.home')}
             </Button>
-            {account.user && (
-              <Button component={Link} variant="text" to="/playground" color={pathname === '/playground' ? 'primary' : 'inherit'}>
-                Playground
-              </Button>
-            )}
             <Button component={Link} variant="text" to="/about" color={pathname === '/about' ? 'primary' : 'inherit'}>
               {t('menu.about')}
             </Button>

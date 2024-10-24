@@ -40,7 +40,7 @@ var GitHubOAuthEnabled = false
 var WeChatAuthEnabled = false
 var LarkAuthEnabled = false
 var TurnstileCheckEnabled = false
-var RegisterEnabled = true
+var RegisterEnabled = false
 var OIDCAuthEnabled = false
 
 // chat cache
